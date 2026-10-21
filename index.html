@@ -8,275 +8,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="robots" content="max-image-preview:large">
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<style id="wp-img-auto-sizes-contain-inline-css">
-		img:is([sizes=auto i], [sizes^="auto," i]) {
-			contain-intrinsic-size: 3000px 1500px
-		}
-
-		/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
-	</style>
-	<link rel="stylesheet" id="layerslider-css" href="css/layerslider.css" media="all">
-	<style id="wp-emoji-styles-inline-css">
-		img.wp-smiley,
-		img.emoji {
-			display: inline !important;
-			border: none !important;
-			box-shadow: none !important;
-			height: 1em !important;
-			width: 1em !important;
-			margin: 0 0.07em !important;
-			vertical-align: -0.1em !important;
-			background: none !important;
-			padding: 0 !important;
-		}
-
-		/*# sourceURL=wp-emoji-styles-inline-css */
-	</style>
-	<style id="wp-block-library-inline-css">
-		:root {
-			--wp-block-synced-color: #7a00df;
-			--wp-block-synced-color--rgb: 122, 0, 223;
-			--wp-bound-block-color: var(--wp-block-synced-color);
-			--wp-editor-canvas-background: #ddd;
-			--wp-admin-theme-color: #007cba;
-			--wp-admin-theme-color--rgb: 0, 124, 186;
-			--wp-admin-theme-color-darker-10: #006ba1;
-			--wp-admin-theme-color-darker-10--rgb: 0, 107, 160.5;
-			--wp-admin-theme-color-darker-20: #005a87;
-			--wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
-			--wp-admin-border-width-focus: 2px
-		}
-
-		@media (min-resolution:192dpi) {
-			:root {
-				--wp-admin-border-width-focus: 1.5px
-			}
-		}
-
-		.wp-element-button {
-			cursor: pointer
-		}
-
-		:root .has-very-light-gray-background-color {
-			background-color: #eee
-		}
-
-		:root .has-very-dark-gray-background-color {
-			background-color: #313131
-		}
-
-		:root .has-very-light-gray-color {
-			color: #eee
-		}
-
-		:root .has-very-dark-gray-color {
-			color: #313131
-		}
-
-		:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
-			background: linear-gradient(135deg, #00d084, #0693e3)
-		}
-
-		:root .has-purple-crush-gradient-background {
-			background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
-		}
-
-		:root .has-hazy-dawn-gradient-background {
-			background: linear-gradient(135deg, #faaca8, #dad0ec)
-		}
-
-		:root .has-subdued-olive-gradient-background {
-			background: linear-gradient(135deg, #fafae1, #67a671)
-		}
-
-		:root .has-atomic-cream-gradient-background {
-			background: linear-gradient(135deg, #fdd79a, #004a59)
-		}
-
-		:root .has-nightshade-gradient-background {
-			background: linear-gradient(135deg, #330968, #31cdcf)
-		}
-
-		:root .has-midnight-gradient-background {
-			background: linear-gradient(135deg, #020381, #2874fc)
-		}
-
-		:root {
-			--wp--preset--font-size--normal: 16px;
-			--wp--preset--font-size--huge: 42px
-		}
-
-		.has-regular-font-size {
-			font-size: 1em
-		}
-
-		.has-larger-font-size {
-			font-size: 2.625em
-		}
-
-		.has-normal-font-size {
-			font-size: var(--wp--preset--font-size--normal)
-		}
-
-		.has-huge-font-size {
-			font-size: var(--wp--preset--font-size--huge)
-		}
-
-		:root .has-text-align-center {
-			text-align: center
-		}
-
-		:root .has-text-align-left {
-			text-align: left
-		}
-
-		:root .has-text-align-right {
-			text-align: right
-		}
-
-		.has-fit-text {
-			white-space: nowrap !important
-		}
-
-		#end-resizable-editor-section {
-			display: none
-		}
-
-		.aligncenter {
-			clear: both
-		}
-
-		.items-justified-left {
-			justify-content: flex-start
-		}
-
-		.items-justified-center {
-			justify-content: center
-		}
-
-		.items-justified-right {
-			justify-content: flex-end
-		}
-
-		.items-justified-space-between {
-			justify-content: space-between
-		}
-
-		.screen-reader-text {
-			word-wrap: normal !important;
-			border: 0;
-			clip-path: inset(50%);
-			height: 1px;
-			margin: -1px;
-			overflow: hidden;
-			padding: 0;
-			position: absolute;
-			width: 1px
-		}
-
-		.screen-reader-text:focus {
-			background-color: #ddd;
-			clip-path: none;
-			color: #444;
-			display: block;
-			font-size: 1em;
-			height: auto;
-			left: 5px;
-			line-height: normal;
-			padding: 15px 23px 14px;
-			text-decoration: none;
-			top: 5px;
-			width: auto;
-			z-index: 100000
-		}
-
-		html :where(.has-border-color) {
-			border-style: solid
-		}
-
-		html :where([style*=border-color]) {
-			border-style: solid
-		}
-
-		html :where([style*=border-top-color]) {
-			border-top-style: solid
-		}
-
-		html :where([style*=border-right-color]) {
-			border-right-style: solid
-		}
-
-		html :where([style*=border-bottom-color]) {
-			border-bottom-style: solid
-		}
-
-		html :where([style*=border-left-color]) {
-			border-left-style: solid
-		}
-
-		html :where([style*=border-width]) {
-			border-style: solid
-		}
-
-		html :where([style*=border-top-width]) {
-			border-top-style: solid
-		}
-
-		html :where([style*=border-right-width]) {
-			border-right-style: solid
-		}
-
-		html :where([style*=border-bottom-width]) {
-			border-bottom-style: solid
-		}
-
-		html :where([style*=border-left-width]) {
-			border-left-style: solid
-		}
-
-		html :where(img[class*=wp-image-]) {
-			height: auto;
-			max-width: 100%
-		}
-
-		:where(figure) {
-			margin: 0 0 1em
-		}
-
-		html :where(.is-position-sticky) {
-			--wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
-		}
-
-		@media screen and (max-width:600px) {
-			html :where(.is-position-sticky) {
-				--wp-admin--admin-bar--position-offset: 0px
-			}
-		}
-
-		/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
-	</style>
-	<style id="classic-theme-styles-inline-css">
-		/*! This file is auto-generated */
-		.wp-block-button__link {
-			color: #fff;
-			background-color: #32373c;
-			border-radius: 9999px;
-			box-shadow: none;
-			text-decoration: none;
-			padding: calc(.667em + 2px) calc(1.333em + 2px);
-			font-size: 1.125em
-		}
-
-		.wp-block-file__button {
-			background: #32373c;
-			color: #fff;
-			text-decoration: none
-		}
-
-		/*# sourceURL=/wp-includes/css/classic-themes.min.css */
-	</style>
-
-	<link rel="stylesheet" id="wc-blocks-style-css" href="css/wc-blocks.css" media="all">
 
 	<style id="global-styles-inline-css">
 		:root {
@@ -597,24 +328,11 @@
 
 		/*# sourceURL=global-styles-inline-css */
 	</style>
-
-	<link rel="stylesheet" id="contact-form-7-css" href="css/styles.css" media="all">
 	<link rel="stylesheet" id="dt-animation-css-css" href="css/animations.css" media="all">
 	<link rel="stylesheet" id="dt-slick-css-css" href="css/slick.css" media="all">
 	<link rel="stylesheet" id="dt-swiper-css-css" href="css/swiper.min.css" media="all">
 	<link rel="stylesheet" id="dt-scrolltabs-css-css" href="css/dt-scrolltabs.css" media="all">
 	<link rel="stylesheet" id="dt-sc-css-css" href="css/shortcodes.css" media="all">
-	<link rel="stylesheet" id="woocommerce-layout-css" href="css/woocommerce-layout.css" media="all">
-	<link rel="stylesheet" id="woocommerce-smallscreen-css" href="css/woocommerce-smallscreen.css"
-		media="only screen and (max-width: 768px)">
-	<link rel="stylesheet" id="woocommerce-general-css" href="css/woocommerce.css" media="all">
-	<style id="woocommerce-inline-inline-css">
-		.woocommerce form .form-row .required {
-			visibility: visible;
-		}
-
-		/*# sourceURL=woocommerce-inline-inline-css */
-	</style>
 	<link rel="stylesheet" id="fontawesome-icons-css" href="css/fontawesome-all.min.css" media="all">
 	<link rel="stylesheet" id="dtportfolio-animation-css" href="css/animations_1.css" media="all">
 	<link rel="stylesheet" id="dtportfolio-fullpage-css" href="css/jquery.fullPage.css" media="all">
@@ -681,10 +399,6 @@
 	<link rel="stylesheet" id="stroke-gap-icons-style-css" href="css/stroke-gap-icons-style.css" media="all">
 	<link rel="stylesheet" id="icon-moon-css" href="css/icon-moon.css" media="all">
 	<link rel="stylesheet" id="material-design-iconic-css" href="css/material-design-iconic-font.min.css" media="all">
-	<link rel="stylesheet" id="patrai-woo-css" href="css/woocommerce_1.css" media="all">
-	<link rel="stylesheet" id="patrai-woo-default-css" href="css/woocommerce-default.css" media="all">
-	<link rel="stylesheet" id="patrai-woo-hovers-css" href="css/woocommerce-hovers.css" media="all">
-	<link rel="stylesheet" id="patrai-woo-custom-css" href="css/woocommerce-custom.css" media="all">
 	<link rel="stylesheet" id="patrai-customevent-css" href="css/custom.css" media="all">
 	<link rel="stylesheet" id="patrai-popup-css-css" href="css/magnific-popup.css" media="all">
 	<link rel="stylesheet" id="bxslider-css-css" href="css/jquery.bxslider.min.css" media="all">
@@ -3420,37 +3134,10 @@
 	</style>
 	<script id="jquery-core-js" src="js/jquery.min.js"></script>
 	<script id="jquery-migrate-js" src="js/jquery-migrate.min.js"></script>
-	<script id="layerslider-utils-js-extra">
-		var LS_Meta = { "v": "8.2.0", "fixGSAP": "1" };
-		//# sourceURL=layerslider-utils-js-extra
-	</script>
-	<script id="layerslider-utils-js" src="js/layerslider.utils.js"></script>
-	<script id="layerslider-js" src="js/layerslider.kreaturamedia.jquery.js"></script>
-	<script id="layerslider-transitions-js" src="js/layerslider.transitions.js"></script>
-	<script data-wp-strategy="defer" id="wc-jquery-blockui-js" src="js/jquery.blockUI.min.js"></script>
-	<script id="wc-add-to-cart-js-extra">
-		var wc_add_to_cart_params = { "ajax_url": "", "wc_ajax_url": "/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "", "is_cart": "", "cart_redirect_after_add": "no" };
-		//# sourceURL=wc-add-to-cart-js-extra
-	</script>
-	<script data-wp-strategy="defer" id="wc-add-to-cart-js" src="js/add-to-cart.min.js"></script>
-	<script data-wp-strategy="defer" defer="" id="wc-js-cookie-js" src="js/js.cookie.min.js"></script>
-	<script id="woocommerce-js-extra">
-		var woocommerce_params = { "ajax_url": "", "wc_ajax_url": "/?wc-ajax=%%endpoint%%", "i18n_password_show": "Show password", "i18n_password_hide": "Hide password" };
-		//# sourceURL=woocommerce-js-extra
-	</script>
-	<script data-wp-strategy="defer" defer="" id="woocommerce-js" src="js/woocommerce.min.js"></script>
-	<script id="vc_woocommerce-add-to-cart-js-js" src="js/woocommerce-add-to-cart.js"></script>
 	<script id="ultimate-vc-addons-params-js" src="js/ultimate-params.min.js"></script>
 	<script id="ultimate-vc-addons-modernizr-js" src="js/modernizr-custom.min.js"></script>
 	<script id="ultimate-vc-addons-modal-all-js" src="js/modal-all.min.js"></script>
-	<script id="modernizr-custom-js" src="js/modernizr.custom.js"></script>
-	<script></script>
-	<meta name="generator"
-		content="Powered by LayerSlider 8.2.0 - Build Heros, Sliders, and Popups. Create Animations and Beautiful, Rich Web Content as Easy as Never Before on WordPress.">
-	<!-- LayerSlider updates and docs at: https://layerslider.com -->
-	<meta name="generator" content="WordPress 7.0.7">
-	<meta name="generator" content="WooCommerce 10.9.4">
-	<link rel="canonical" href="index.html">
+	<script id="modernizr-custom-js" src="js/modernizr.custom.js"></script>	<link rel="canonical" href="index.html">
 	<noscript>
 		<style>
 			.woocommerce-product-gallery {
@@ -3464,11 +3151,7 @@
 			padding: 0 !important;
 			margin: 0 !important;
 		}
-	</style>
-	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
-	<meta name="generator"
-		content="Powered by Slider Revolution 6.7.28 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
-	<link rel="icon" href="images/cropped-Pricol-Logo-32x32.png" sizes="32x32">
+	</style>	<link rel="icon" href="images/cropped-Pricol-Logo-32x32.png" sizes="32x32">
 	<link rel="icon" href="images/cropped-Pricol-Logo-192x192.png" sizes="192x192">
 	<link rel="apple-touch-icon" href="images/cropped-Pricol-Logo-180x180.png">
 	<meta name="msapplication-TileImage" content="images/cropped-Pricol-Logo-270x270.png">
@@ -5210,39 +4893,12 @@
 		window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
 		window.RS_MODULES.type = 'compiled';
 	</script>
-	<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/patrai-child/*","/wp-content/themes/patrai/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
-</script>
-	<script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script>
+		<script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script>
 
-	<script type="text/javascript">
-		(function () {
-			var c = document.body.className;
-			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-			document.body.className = c;
-		})();
-	</script>
-	<script>
+		<script>
 		if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
 	</script>
-	<script id="wp-hooks-js" src="js/hooks.min.js"></script>
-	<script id="wp-i18n-js" src="js/i18n.min.js"></script>
-	<script id="wp-i18n-js-after">
-		wp.i18n.setLocaleData({ 'text direction\u0004ltr': ['ltr'] });
-		//# sourceURL=wp-i18n-js-after
-	</script>
-	<script id="swv-js" src="js/index.js"></script>
-	<script id="contact-form-7-js-before">
-		var wpcf7 = {
-			"api": {
-				"root": "",
-				"namespace": "contact-form-7\/v1"
-			}
-		};
-		//# sourceURL=contact-form-7-js-before
-	</script>
-	<script id="contact-form-7-js" src="js/index_1.js"></script>
-	<script id="dt-sc-tabs-js" src="js/jquery.tabs.min.js"></script>
+		<script id="dt-sc-tabs-js" src="js/jquery.tabs.min.js"></script>
 	<script id="dt-sc-tiptip-js" src="js/jquery.tipTip.minified.js"></script>
 	<script id="dt-sc-inview-js" src="js/jquery.inview.js"></script>
 	<script id="dt-sc-animatenum-js" src="js/jquery.animateNumber.min.js"></script>
@@ -5254,7 +4910,6 @@
 	<script id="dt-sc-swiper-js" src="js/swiper.min.js"></script>
 	<script id="dt-sc-360-viewer-js" src="js/dt-360-viewer.js"></script>
 	<script id="dt-custom-waypoints-js" src="js/custom-waypoints.js"></script>
-	<script id="dt-sc-woo-script-js" src="js/woo-shortcodes.js"></script>
 	<script defer="" async="" id="tp-tools-js" src="js/rbtools.min.js"></script>
 	<script defer="" async="" id="revmin-js" src="js/rs6.min.js"></script>
 	<script id="dtportfolio-plugins-js" src="js/jquery.plugins.js"></script>
@@ -5291,26 +4946,16 @@
 	<script id="jquery-waypoints-js" src="js/jquery.waypoints.min.js"></script>
 	<script id="isotope-pkgd-js" src="js/isotope.pkgd.min_1.js"></script>
 	<script id="magnific-popup-js" src="js/jquery.magnific-popup.min.js"></script>
-	<script id="patrai-woocommerce-js" src="js/woocommerce.js"></script>
 	<script id="patrai-jqcustom-js-extra">
 		var dttheme_urls = { "theme_base_url": "", "framework_base_url": "", "ajaxurl": "", "url": "", "isRTL": "", "loadingbar": "disable", "advOptions": "Show Advanced Options", "wpnonce": "3f82a397ab", "shopwpnonce": "ea781f451a", "blogwpnonce": "18f2674e38", "iconswpnonce": "85a3eac5e1", "enable_ajax_addtocart": "", "enable_totop": "1" };
 		//# sourceURL=patrai-jqcustom-js-extra
 	</script>
 	<script id="patrai-jqcustom-js" src="js/custom.js"></script>
-
-	<script id="sourcebuster-js-js" src="js/sourcebuster.min.js"></script>
-	<script id="wc-order-attribution-js-extra">
-		var wc_order_attribution = { "params": { "lifetime": 1.0e-5, "session": 30, "base64": false, "ajaxurl": "", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "utm_source_platform": "current.plt", "utm_creative_format": "current.fmt", "utm_marketing_tactic": "current.tct", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
-		//# sourceURL=wc-order-attribution-js-extra
-	</script>
-	<script id="wc-order-attribution-js" src="js/order-attribution.min.js"></script>
-	<script id="wpb_composer_front_js-js" src="js/js_composer_front.min.js"></script>
+		<script id="wpb_composer_front_js-js" src="js/js_composer_front.min.js"></script>
 	<script id="ultimate-vc-addons-appear-js" src="js/jquery-appear.min.js"></script>
 	<script id="ultimate-vc-addons-row-bg-js" src="js/ultimate_bg.min.js"></script>
 	<script id="ultimate-vc-addons-custom-js" src="js/custom.min.js"></script>
 	<script id="ultimate-vc-addons-jquery.vhparallax-js" src="js/vhparallax.min.js"></script>
-
-	<script></script>
 	<script id="rs-initialisation-scripts">
 		var tpj = jQuery;
 
