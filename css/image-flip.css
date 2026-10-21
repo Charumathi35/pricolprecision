@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Table of Content
+==================================================
+	1.0 - Transition
+	2.0 - Image Flip
+	3.0 - Responsive*/
+
+/*--------------------------------------------------------------
+	1.0 - Transition
+--------------------------------------------------------------*/
+.dt-sc-image-flip img, .dt-sc-image-flip:before { transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; -webkit-transition: all .3s linear; }
+
+/*--------------------------------------------------------------
+	1.0 - Image Flip
+	--------------------------------------------------------------*/
+.dt-sc-image-flip {clear: both; float: left; margin: auto; padding: 0; position: relative; text-align: center; width: 100%; }
+.dt-sc-image-flip a {float: left; position: relative; width: 100%; } .dt-sc-image-flip:before {border: 1px solid; bottom: 0; content: ''; left: 0; margin: auto; opacity: 0; position: absolute; right: 0; top: 0; }
+.dt-sc-image-flip:hover:before {opacity: 1; } .dt-sc-image-flip img {margin: auto; padding: 20px; } .dt-sc-image-flip img:last-child {bottom: 0; left: 0; position: absolute; right: 0; top: 0; }
+.dt-sc-image-flip img:last-child {opacity: 0; } .dt-sc-image-flip:hover img:last-child {opacity: 1; } .dt-sc-image-flip:hover img:first-child {opacity: 0; }
+.aligncenter .dt-sc-image-flip img:last-child {margin: auto; right: 0; }
+
+/*--------------------------------------------------------------
+	1.0 - Responsive
+	--------------------------------------------------------------*/
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+/* Common Styles for the devices below 767px width */
+@media only screen and (max-width: 767px) {
+	.dt-sc-image-flip {text-align: center; }
+	.dt-sc-image-flip img {display: block; margin: 0 auto; padding: 10px; }
+	.dt-sc-image-flip img:last-child {right: 0; }
+}
