@@ -2561,7 +2561,7 @@ div.breadcrumb a:hover {
 	width: 100%;
 	float: left;
 	clear: both;
-	margin: 0px 0 0;
+	margin: -21px 0 0;
 }
 
 #footer .container {
