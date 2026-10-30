@@ -345,10 +345,14 @@ rs-alyer *:not(.rs-wtbindex),
 
 /* CAROUSEL FUNCTIONS */
 rs-carousel-wrap {
-	cursor:url(../openhand.cur), move;
+	cursor: move;
+	cursor: -webkit-grab;
+	cursor: grab;
 }
 rs-carousel-wrap.dragged {
-	cursor:url(../closedhand_1.cur), move;
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
 }
 
 rs-carousel-wrap.noswipe {
